@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akhil Energy Solutions - Power Your Home, Your Way</title>
+  <meta name="description"
+    content="Akhil Energy Solutions provides high-quality residential and commercial solar panels, installation, and sustainable energy systems to power your world efficiently.">
+
+  <!-- Modern Google Font: Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header id="main-header" class="site-header">
+    <div class="container header-container">
+      <a href="#" class="logo-area" id="logo-link">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" width="28" height="28" stroke="currentColor" stroke-width="2.5" fill="none"
+            stroke-linecap="round" stroke-linejoin="round" class="bolt-svg">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+        </div>
+        <span class="logo-text">Akhil Energy Solutions</span>
+      </a>
+
+      <nav class="nav-menu" id="nav-navigation">
+        <ul class="nav-list">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link active">Home <i data-lucide="chevron-down" class="dropdown-arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#hero">Residential Solar</a></li>
+              <li><a href="#snapshots">Project Snapshots</a></li>
+              <li><a href="#benefits">Why Solar</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#benefits" class="nav-link">Services</a></li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link">Page <i data-lucide="chevron-down" class="dropdown-arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#stats">Our Achievements</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link">News <i data-lucide="chevron-down" class="dropdown-arrow"></i></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Industry Trends</a></li>
+              <li><a href="#">Solar Guides</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="#footer" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-cta">
+          <button class="btn btn-lime btn-full quote-trigger-btn">CONTACT US</button>
+        </div>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn-lime btn-contact" id="header-contact-btn">CONTACT US</button>
+        <button class="mobile-toggle-btn" id="mobile-menu-toggle" aria-label="Toggle Menu">
+          <i data-lucide="menu" class="menu-open-icon"></i>
+          <i data-lucide="x" class="menu-close-icon hidden"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay Backdrop -->
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section"
+    style="background-image: linear-gradient(to bottom, rgba(11, 26, 48, 0.45), rgba(3, 7, 13, 0.2)), url('assets/hero_solar_house.png');">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h2 class="hero-title">Powering your homes <br class="hide-on-mobile"> Since 2025 </h2>
+        <button class="btn btn-blue btn-large quote-trigger-btn" id="hero-quote-btn">GET A CONNECTION</button>
+      </div>
+    </div>
+    <div class="hero-bottom-curve">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path
+          d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,42.4V0Z"
+          class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <!-- Benefits Section -->
+  <section id="benefits" class="benefits-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Benefits of solar for<br class="hide-on-mobile">commercial & industrial</h2>
+      </div>
+
+      <div class="benefits-grid">
+        <!-- Benefit Card 1 -->
+        <div class="benefit-card">
+          <div class="benefit-icon-wrapper lime-border">
+            <i data-lucide="home" class="benefit-icon icon-green"></i>
+          </div>
+          <h3 class="benefit-title">Own your system</h3>
+          <p class="benefit-description">Take absolute control of your utility bills by generating and storing your own
+            solar electricity direct from the source.</p>
+        </div>
+
+        <!-- Benefit Card 2 -->
+        <div class="benefit-card">
+          <div class="benefit-icon-wrapper lime-border">
+            <i data-lucide="piggy-bank" class="benefit-icon icon-green"></i>
+          </div>
+          <h3 class="benefit-title">Save Money</h3>
+          <p class="benefit-description">Significantly slash your overhead and operating costs with tax credits, local
+            solar incentives, and long-term energy savings.</p>
+        </div>
+
+        <!-- Benefit Card 3 -->
+        <div class="benefit-card">
+          <div class="benefit-icon-wrapper lime-border">
+            <i data-lucide="activity" class="benefit-icon icon-green"></i>
+          </div>
+          <h3 class="benefit-title">Control Energy</h3>
+          <p class="benefit-description">Build high resilience against voltage fluctuations, power outages, and seasonal
+            utility price surges with smart batteries.</p>
+        </div>
+
+        <!-- Benefit Card 4 -->
+        <div class="benefit-card">
+          <div class="benefit-icon-wrapper lime-border">
+            <i data-lucide="leaf" class="benefit-icon icon-green"></i>
+          </div>
+          <h3 class="benefit-title">The Environment</h3>
+          <p class="benefit-description">Substantially shrink your carbon footprint, meet ESG standards, and show your
+            clients that you care about sustainability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- "What makes us great" Section -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <!-- Left side: Collage of images -->
+      <div class="collage-container">
+        <div class="collage-item collage-main">
+          <img src="assets/engineer_panel.png" alt="Solar installer examining control panels" class="collage-img">
+        </div>
+        <div class="collage-item collage-top-right">
+          <img src="assets/family_solar.png" alt="Family playing with a small solar toy home" class="collage-img">
+        </div>
+        <div class="collage-item collage-bottom-right">
+          <img src="assets/solar_farm.png" alt="Expansive solar farm in bright green field" class="collage-img">
+        </div>
+      </div>
+
+      <!-- Right side: Content and Cards -->
+      <div class="about-content">
+        <h2 class="about-heading">What makes us great</h2>
+        <p class="about-text">
+          Since 2025, Akhil Energy Solutions has pioneered sustainable energy infrastructure. We blend industrial-grade
+          engineering
+          with premium consumer designs to create robust, maintenance-free, and high-performance clean energy
+          architectures for properties globally.
+        </p>
+
+        <div class="about-cards-grid">
+          <!-- Card 1 -->
+          <div class="about-card">
+            <div class="about-card-icon">
+              <i data-lucide="calendar"></i>
+            </div>
+            <h3 class="about-card-title">Affordable</h3>
+            <p class="about-card-text">Tailored zero-down financing options, flexible leases, and immediate tax offset
+              guidance.</p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="about-card">
+            <div class="about-card-icon">
+              <i data-lucide="shield-check"></i>
+            </div>
+            <h3 class="about-card-title">Warranty</h3>
+            <p class="about-card-text">Enjoy stress-free reliability with our comprehensive 25-year system and product
+              warranty.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Counter Section -->
+  <section id="stats" class="stats-section">
+    <div class="container stats-container">
+      <!-- Stat 1 -->
+      <div class="stat-item">
+        <div class="stat-icon-circle">
+          <i data-lucide="award"></i>
+        </div>
+        <div class="stat-info">
+          <span class="stat-number" data-target="3">0</span><span class="stat-suffix"> +</span>
+          <p class="stat-label">Years of experience</p>
+        </div>
+      </div>
+
+      <!-- Stat 2 -->
+      <div class="stat-item">
+        <div class="stat-icon-circle">
+          <i data-lucide="check-circle2"></i>
+        </div>
+        <div class="stat-info">
+          <span class="stat-number" data-target="15 and counting">0</span><span class="stat-suffix"> +</span>
+          <p class="stat-label">Project Success</p>
+        </div>
+      </div>
+
+      <!-- Stat 3 -->
+      <div class="stat-item">
+        <div class="stat-icon-circle">
+          <i data-lucide="zap"></i>
+        </div>
+        <div class="stat-info">
+          <span class="stat-number" data-target="50">0</span><span class="stat-suffix"> +</span>
+          <p class="stat-label">MWH Produced</p>
+        </div>
+      </div>
+
+      <!-- Stat 4 -->
+      <div class="stat-item">
+        <div class="stat-icon-circle">
+          <i data-lucide="panel-top"></i>
+        </div>
+        <div class="stat-info">
+          <span class="stat-number" data-target="15">0</span><span class="stat-suffix"> +</span>
+          <p class="stat-label">Solar Panel Installed</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Snapshots Section -->
+  <section id="snapshots" class="snapshots-section">
+    <div class="container">
+      <div class="section-header text-center">
+        <h2 class="section-title">Project Snapshots</h2>
+        <p class="section-subtitle">Swipe to explore our premium solar installations and engineering breakthroughs</p>
+      </div>
+
+      <div class="snapshots-carousel-wrapper">
+        <!-- Navigation Arrows -->
+        <button class="carousel-control prev-control" aria-label="Previous Snapshot" id="carousel-prev">
+          <i data-lucide="arrow-left"></i>
+        </button>
+        <button class="carousel-control next-control" aria-label="Next Snapshot" id="carousel-next">
+          <i data-lucide="arrow-right"></i>
+        </button>
+
+        <!-- Carousel Track -->
+        <div class="carousel-track" id="carousel-track">
+          <div class="carousel-slide" data-slide-index="0">
+            <div class="slide-inner">
+              <img src="assets/snapshot1.jpg" alt="Solar Panels installation on residential rooftop"
+                class="carousel-image">
+              <div class="slide-caption">
+                <span class="slide-tag">Residential Solar</span>
+                <h3>Premium Grid-Tied Roof Setup</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-slide" data-slide-index="1">
+            <div class="slide-inner">
+              <img src="assets/snapshot2.jpg" alt="Solar Panels on slanted roof in sunny weather"
+                class="carousel-image">
+              <div class="slide-caption">
+                <span class="slide-tag">Residential Solar</span>
+                <h3>High-Efficiency Monocrystalline Panels</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-slide" data-slide-index="2">
+            <div class="slide-inner">
+              <img src="assets/snapshot3.jpg" alt="Solar Panel arrays on building roof with blue sky"
+                class="carousel-image">
+              <div class="slide-caption">
+                <span class="slide-tag">Commercial Solar</span>
+                <h3>Flat-Roof Elevated Mount Structure</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-slide" data-slide-index="3">
+            <div class="slide-inner">
+              <img src="assets/snapshot4.jpg" alt="Engineers installing solar panels at sunset" class="carousel-image">
+              <div class="slide-caption">
+                <span class="slide-tag">Installation Team</span>
+                <h3>Precision Engineering at Sunset</h3>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-slide" data-slide-index="4">
+            <div class="slide-inner">
+              <img src="assets/snapshot5.jpg" alt="Solar panels on rooftop near green field" class="carousel-image">
+              <div class="slide-caption">
+                <span class="slide-tag">Industrial Solar</span>
+                <h3>Rural Rooftop Energy Solution</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Navigation Indicators (Dots) -->
+      <div class="carousel-indicators" id="carousel-indicators">
+        <button class="indicator active" data-slide-index="0" aria-label="Go to snapshot 1"></button>
+        <button class="indicator" data-slide-index="1" aria-label="Go to snapshot 2"></button>
+        <button class="indicator" data-slide-index="2" aria-label="Go to snapshot 3"></button>
+        <button class="indicator" data-slide-index="3" aria-label="Go to snapshot 4"></button>
+        <button class="indicator" data-slide-index="4" aria-label="Go to snapshot 5"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bottom CTA Banner Section -->
+  <section class="bottom-cta-section"
+    style="background-image: linear-gradient(to right, rgba(11, 26, 48, 0.95), rgba(11, 26, 48, 0.75)), url('assets/engineers_outdoor.png');">
+    <div class="container cta-container">
+      <div class="cta-inner">
+        <h2 class="cta-heading">Get the fastest, easiest<br class="hide-on-mobile">solar installation with<br
+            class="hide-on-mobile">Akhil Energy Solutions</h2>
+        <p class="cta-subtext">Our master technicians handle everything from engineering approvals and tax credit filing
+          to roof panel installation and smart battery connections.</p>
+        <button class="btn btn-lime btn-large quote-trigger-btn" id="footer-quote-btn">REQUEST ESTIMATION</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer" class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo-area">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2.5" fill="none"
+              stroke-linecap="round" stroke-linejoin="round" class="bolt-svg">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <span class="logo-text">Akhil Energy Solutions</span>
+        </a>
+        <p class="footer-desc">Sustainable energy engineering for residential, commercial, and industrial platforms.
+          Empowering the future since 2025.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+          <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+          <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-title">Solutions</h4>
+        <ul>
+          <li><a href="#hero">Residential Solar</a></li>
+          <li><a href="#snapshots">Project Gallery</a></li>
+          <li><a href="#benefits">Solar Benefits</a></li>
+          <li><a href="#benefits">Battery Backup Systems</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-title">Company</h4>
+        <ul>
+          <li><a href="#about">About Our Mission</a></li>
+          <li><a href="#stats">Performance Metrics</a></li>
+          <li><a href="#snapshots">Project Snapshots</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4 class="footer-title">Contact & Help</h4>
+        <ul>
+          <li><a href="#">Support Center</a></li>
+          <li><a href="#">Online Estimate Portal</a></li>
+          <li><span class="footer-info"><i data-lucide="user" class="footer-info-icon"></i> Akhil</span></li>
+          <li><a href="tel:7839196519" class="footer-info"><i data-lucide="phone" class="footer-info-icon"></i>
+              7839196519</a></li>
+          <li><a href="mailto:akhilenergysolutions06@gmail.com" class="footer-info"><i data-lucide="mail"
+                class="footer-info-icon"></i>
+              akhilenergysolutions06@gmail.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom text-center">
+      <p>&copy; 2026 Akhil Energy Solutions Inc. All Rights Reserved. Clean Energy Engineered responsibly.</p>
+    </div>
+  </footer>
+
+  <!-- Quote & Estimation Modal -->
+  <div class="modal-overlay" id="quote-modal">
+    <div class="modal-card">
+      <button class="modal-close-btn" id="modal-close" aria-label="Close Modal">
+        <i data-lucide="x"></i>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-icon-header">
+          <i data-lucide="zap"></i>
+        </div>
+        <h3 class="modal-title">Request Solar Estimate</h3>
+        <p class="modal-subtitle">Submit your details to receive a free, high-precision custom solar savings analysis.
+        </p>
+      </div>
+
+      <form class="modal-form" id="quote-form">
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="user-name">Full Name</label>
+            <input type="text" id="user-name" class="form-control" placeholder="John Doe" required>
+          </div>
+          <div class="form-group">
+            <label for="user-email">Email Address</label>
+            <input type="email" id="user-email" class="form-control" placeholder="john@example.com" required>
+          </div>
+        </div>
+
+        <div class="form-row-2">
+          <div class="form-group">
+            <label for="user-phone">Phone Number</label>
+            <input type="tel" id="user-phone" class="form-control" placeholder="7839196519" required>
+          </div>
+          <div class="form-group">
+            <label for="project-type">Project Scale</label>
+            <select id="project-type" class="form-control" required>
+              <option value="residential">Residential Solar</option>
+              <option value="commercial">Commercial Building</option>
+              <option value="industrial">Heavy Industrial Site</option>
+              <option value="other">Institutional / Public</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="roof-size"> Estimate Consumption in KWH</label>
+          <input type="number" id="roof-size" class="form-control" placeholder="250" min="1" required>
+        </div>
+
+        <button type="submit" class="btn btn-blue btn-full btn-submit" id="submit-btn">
+          <span class="btn-text">GENERATE MY ESTIMATE</span>
+          <div class="spinner hidden" id="form-spinner"></div>
+        </button>
+      </form>
+
+      <!-- Success Feedback State -->
+      <div class="modal-success hidden" id="modal-success-state">
+        <div class="success-icon-wrapper">
+          <i data-lucide="check" class="success-checkmark"></i>
+        </div>
+        <h4 class="success-title">Estimate Request Submitted!</h4>
+        <p class="success-message">Thank you for choosing Akhil Energy Solutions. Our sustainable energy planning team
+          will compile
+          your savings projection models and contact you within 24 hours.</p>
+        <button class="btn btn-blue btn-large" id="success-close-btn">DONE</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
+</body>
+
+</html>
